@@ -1,16 +1,20 @@
 {
-  name: 'doodles',
-  version: '0.1',
-  author: 'flankstaek',
-
-  app: {
+  luxe : {
+  },
+  project: {
     name: 'doodles',
-    package: 'me.flankstaek.doodles'
-  }
+    version: '0.0.1',
+    author: 'flankstaek',
 
-  build : {
-    dependencies: {
-      luxe '*'
+    app: {
+      name: 'doodles',
+      package: 'me.flankstaek.doodles'
+      },
+
+      build : {
+        dependencies: {
+          luxe: '*',
+        }
+      }
     }
   }
-}
